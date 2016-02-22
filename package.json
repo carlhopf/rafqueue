@@ -1,0 +1,26 @@
+{
+  "name": "rafqueue",
+  "version": "1.0.0",
+  "description": "RequestAnimationFrame queue.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Carl Hopf <npm@carlhopf.com>",
+  "license": "MIT",
+  "dependencies": {
+    "raf": "^3.2.0"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  }
+}
