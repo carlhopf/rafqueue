@@ -1,7 +1,7 @@
 {
   "name": "rafqueue",
-  "version": "1.0.0",
-  "description": "RequestAnimationFrame queue.",
+  "version": "1.0.1",
+  "description": "requestAnimationFrame queue.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
